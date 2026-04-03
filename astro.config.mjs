@@ -6,7 +6,6 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
   site: "https://grooveshare.github.io",
-  base: '/web',
   server: {
     host: true,
     port: 8080
