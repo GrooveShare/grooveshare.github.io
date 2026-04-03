@@ -1,0 +1,45 @@
+---
+import Layout from "../components/layout.astro";
+import Icon from "../components/assets/icon.astro";
+---
+
+<Layout
+  title="Get Beatly"
+  description="Download Beatly and - tune - in to the fun"
+>
+  <div class="flex flex-col items-center justify-center h-h-dvh-dvh gap-6">
+    <a class="animate-fade-down" style="animation-delay: 0.0s;" href="/">
+      <Icon class="w-40 h-auto" />
+    </a>
+
+    <p
+      class="text-2xl font-medium text-text animate-fade-down"
+      style="animation-delay: 0.1s;"
+    >
+      Download
+    </p>
+
+    <a
+      class="animate-fade-down overflow-hidden group bg-primary-from px-6 py-2 rounded-2xl text-background flex flex-row items-center gap-2 text-lg transition-transform duration-200 hover:text-primary-from hover:bg-background"
+      href={`https://play.google.com/`}
+      target="_blank"
+      rel="noopener noreferrer"
+      style="animation-delay: 0.2s;"
+    >
+      <svg
+        width="14"
+        height="16"
+        viewBox="0 0 14 16"
+        fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg"
+        class="icon-arrow"
+      >
+        <path
+          d="M7.52756 0.899994C7.52756 0.402938 7.12462 -6.1014e-06 6.62756 -6.07967e-06C6.13051 -6.05795e-06 5.72756 0.402938 5.72756 0.899994L6.62756 0.899994L7.52756 0.899994ZM5.99117 15.5364C6.34264 15.8879 6.91249 15.8879 7.26396 15.5364L12.9915 9.80882C13.343 9.45735 13.343 8.8875 12.9915 8.53603C12.6401 8.18456 12.0702 8.18456 11.7187 8.53603L6.62756 13.6272L1.5364 8.53603C1.18492 8.18456 0.615075 8.18456 0.263603 8.53603C-0.0878689 8.88751 -0.0878689 9.45735 0.263603 9.80883L5.99117 15.5364ZM6.62756 0.899994L5.72756 0.899994L5.72756 14.9L6.62756 14.9L7.52756 14.9L7.52756 0.899994L6.62756 0.899994Z"
+          fill="currentColor"></path>
+      </svg>
+
+      Download
+    </a>
+  </div>
+</Layout>

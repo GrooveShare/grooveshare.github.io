@@ -1,0 +1,79 @@
+---
+import Layout from "../components/layout.astro";
+import Icon from "../components/assets/icon.astro";
+---
+
+<Layout
+  title="Beatly: Your Daily Companion"
+  description="Embrace the unexpected and share your musical journey with Beatly"
+>
+  <div
+    class="h-dvh flex flex-col items-center justify-center px-4 overflow-hidden gap-6"
+  >
+    <Icon
+      class="h-16 sm:h-22 md:h-28 lg:h-34 xl:h-40 animate"
+      style="animation-delay: 0.0s;"
+    />
+  </div>
+</Layout>
+
+<!-- ---
+import Layout from "../components/layout.astro";
+import IconText from "../components/assets/iconText.astro";
+---
+
+<Layout
+  title="Beatly: Your Daily Companion"
+  description="Embrace the unexpected and share your musical journey with Beatly"
+>
+  <div
+    class="flex flex-col justify-between items-start h-h-dvh-dvh py-20 px-40"
+  >
+    <div
+      class="flex flex-row w-full items-center justify-between animate-fade-down"
+      style="animation-delay: 0s;"
+    >
+      <a href="/">
+        <IconText class="w-40 h-auto" />
+      </a>
+
+      <div class="flex flex-wrap justify-center gap-12 text-xl text-text">
+        <a
+          class="flex flex-row items-center gap-2 text-base transition-transform duration-200 hover:text-primary-from"
+          href={`/brand/`}
+        >
+          Brand
+        </a>
+        <a
+          class="flex flex-row items-center gap-2 text-base transition-transform duration-200 hover:text-primary-from"
+          href={`/tos/`}
+        >
+          Terms of Service
+        </a>
+        <a
+          class="flex flex-row items-center gap-2 text-base transition-transform duration-200 hover:text-primary-from"
+          href={`/privacy/`}
+        >
+          Privacy Policy
+        </a>
+        <a
+          class="flex flex-row items-center gap-2 text-base transition-transform duration-200 transform hover:text-primary-from"
+          href={`/contact/`}
+        >
+          Contact
+        </a>
+        <a
+          class="overflow-hidden group border-primary-from border-2 px-8 py-2 rounded-2xl text-text flex flex-row items-center gap-2 text-lg transition-transform duration-200 hover:text-background hover:bg-primary hover:scale-105"
+          href={`/download/`}
+        >
+          Download
+        </a>
+      </div>
+    </div>
+    <h1 class="text-primary-to">
+      Get ready for a delightful experience each day as Beatly seamlessly shares
+      your currently playing song, opening up a whole new world of Spotify
+      tracks. Embrace the unexpected and share your musical journey with Beatly.
+    </h1>
+  </div>
+</Layout> -->

@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.beatly",
+    "sha256_cert_fingerprints":
+    ["3C:AD:94:B5:75:F9:51:AB:8B:21:C4:C3:AF:E2:46:5A:AE:5C:87:FF:BE:6D:EB:50:69:26:FC:CB:D2:3F:CA:5F"]
+  }
+}]
